@@ -1,0 +1,37 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-color);
+}
+.light {
+    --operators-btn: #F09536;
+    --minor-btn: #808080;
+    --number-btn: #E5E5E5; 
+    --text-primary: #000000;  
+    --bg-color: #FFFFFF;   
+}
+.dark{
+    --operators-btn: #F69906;
+    --minor-btn: #A0A0A0;
+    --number-btn: #313131;
+    --text-primary: white; 
+    --bg-color: #000000;
+}
+main {
+    width: 25%;
+    position: fixed;
+    top: 15%;
+    left: 37.5%; 
+    height: 50%;
+    border: 1px solid #000000;
+}
+@media (max-width: 450px) {
+    main {
+        width: 90%;
+        position: fixed;
+        top: 0.2rem;
+        left: 0.3rem;
+        padding: 0px 0.7rem;
+
+    }
+}
