@@ -5,17 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/all.min.css">
     <title>Calculator | App</title>
 </head>
 <body class="light">
     <main>
-        <section class="input">
-
+        <section class="calculator_display" dir="rtl">
+            <bdi id="input">0</bdi>
         </section>
-        <section class="buttons">
-
+        <section class="calculator_keys">
+            <div class="minor-operator remove" id="ac">AC</div>
+            <div class="minor-operator" id="ternary"><sup>+</sup>/<sub>-</sub></div>
+            <div class="minor-operator mod inp" id="%">%</div>
+            <div class="operators inp" id="/">/</div>
+            <div class="number inp" id="7" >7</div>
+            <div class="number inp" id="8">8</div>
+            <div class="number inp" id="9">9</div>
+            <div class="operators inp" id="*">x</div>
+            <div class="number inp" id="4">4</div>
+            <div class="number inp" id="5">5</div>
+            <div class="number inp" id="6">6</div>
+            <div class="operators inp" id="-">-</div>
+            <div class="number inp" id="4">1</div>
+            <div class="number inp" id="2">2</div>
+            <div class="number inp" id="3">3</div>
+            <div class="operators inp" id="+">+</div>
+            <div class="zero number inp" id="0">0</div>
+            <div class="number inp" id=".">,</div>
+            <div class="operators" id="evaluate">=</div>
         </section>
     </main>
+    
+    <script src="js/index.js"></script>
 </body>
 </html>
