@@ -25,7 +25,7 @@ main {
     position: fixed;
     top: 15%;
     left: 40%; 
-    height: 60%;
+    height: 70vh;
     border: 1px solid var(--text-primary);
     padding: 0.8rem;
 }
@@ -108,4 +108,15 @@ main {
         padding: 0.5rem 0.8rem 0.5rem 0.5rem; 
         height: 28%;
     } 
+}
+@media (max-height: 700px){
+    .calculator_display {
+        border: none; 
+        padding: 0.5rem 0.8rem 0.5rem 0.5rem; 
+        height: 12%;
+    } 
+    .calculator_keys div { 
+        padding: 0.5rem 0rem 0.5rem 0rem;
+        font-size: normal; 
+    }
 }
