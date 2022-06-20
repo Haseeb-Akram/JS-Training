@@ -109,11 +109,11 @@ main {
         height: 28%;
     } 
 }
-@media (max-height: 600px){
+@media (max-height: 700px){
     .calculator_display {
         border: none; 
         padding: 0.5rem 0.8rem 0.5rem 0.5rem; 
-        height: 12%;
+        height: 17%;
     } 
     .calculator_keys div { 
         padding: 0.5rem 0rem 0.5rem 0rem;
