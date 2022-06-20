@@ -25,6 +25,8 @@ main {
     width: 300px;
     max-width: 310px; 
     height: 65vh;
+    min-height: 65vh;
+    max-height: 100vh;
     border: 2px solid var(--text-primary);
     border-radius: 3rem;
     padding: 0rem 0.8rem 0.5rem 0rem;
@@ -52,11 +54,10 @@ main {
 .calculator_keys {
     margin-top: 0.4rem;
     padding: 1rem 0rem 1rem 1rem;
-    width: 96%;
-    /* height: 57%; */
+    width: 96%; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
+    gap: 0.6rem;
 }
 .calculator_keys div { 
     border-radius: 50%;
@@ -147,8 +148,8 @@ main {
         padding: 0.5rem 0.8rem 0.5rem 0.5rem; 
         height: 28%;
     } 
-}
-@media (max-height: 750px){
+} */
+@media (max-height: 730px){
     main {
         position: fixed;
         top: 0.2rem;
@@ -167,4 +168,4 @@ main {
         padding: 0.5rem 0rem 0.5rem 0rem;
         font-size: normal; 
     }
-} */
+}
